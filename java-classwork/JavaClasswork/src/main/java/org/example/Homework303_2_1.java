@@ -1,5 +1,7 @@
 package org.example;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Homework303_2_1 {
 
     public static void main(String[] args) {
@@ -54,12 +56,43 @@ public class Homework303_2_1 {
 
         System.out.println(q);
 
-       q = (double) y / x;
+       q = (double)y / x;
 
         System.out.println(q);
 
+        //----------------------------Constant Program----------------------------------------------
+        System.out.println("-----------------------------");
+        //Write a program that declares a named constant and uses it in a calculation. Print the result.
+
+        final double constantName = Math.sqrt(10);
+        System.out.println(constantName);
+
+
+        //----------------------------Cafe Program----------------------------------------------
+        System.out.println("-----------------------------");
+        //Write a program where you create three variables that represent products at a cafe. The products could be beverages like coffee, cappuccino, espresso, green tea, etc.
+        // Assign prices to each product. Create two more variables called subtotal and totalSale
+        // and complete an “order” for three items of the first product, four items of the second product,
+        // and two items of the third product. Add them all together to calculate the subtotal. Create a
+        // constant called SALES_TAX and add sales tax to the subtotal to obtain the totalSale amount.
+        // Be sure to format the results to two decimal places.
+
+        int coffee = 3;
+        int cappuccino = 5;
+        double espresso = 6.50;
+
+        double subtotal = (coffee * 3) + (cappuccino * 4) + (espresso * 2);
+        double totalSale = subtotal * 0.08;
+
+        System.out.println("Your Order: /n Coffee(3): " + coffee * 3);
+        System.out.println("Cappuccino(4): " + cappuccino * 4);
+        System.out.println("Espresso(2)" + espresso * 2);
+        System.out.println("Subtotal: " + subtotal);
+        System.out.println("Total Sale: " + totalSale);
+
+
+
+        //----------------------------Cafe Program (End)----------------------------------------------
     }
-    //Write a program that declares a named constant and uses it in a calculation. Print the result.
-    static final int constantName = 10;
 }
  
