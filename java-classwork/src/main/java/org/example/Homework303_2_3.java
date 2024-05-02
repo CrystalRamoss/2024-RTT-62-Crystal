@@ -1,6 +1,4 @@
-package org;
-
-import org.w3c.dom.ls.LSOutput;
+package org.example;
 
 public class Homework303_2_3 {
     int x = 2;

@@ -1,7 +1,5 @@
 package org.example;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Homework303_2_1 {
 
     public static void main(String[] args) {

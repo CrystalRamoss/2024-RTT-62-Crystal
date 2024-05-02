@@ -1,2 +1,4 @@
-package GLAB_303_2_1;public class ArithmeticOperatorsDemo {
+package GLAB_303_2_1;
+
+public class ArithmeticOperatorsDemo {
 }
