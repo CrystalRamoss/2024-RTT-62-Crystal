@@ -52,6 +52,8 @@ public class Homework303_2_1 {
         //Print out the result. Now, cast the result to an integer. Print out the result again.
         double g1 = 50.5d;
         double g2 = 25.5d;
+        double total = g1 + g2;
+        System.out.println(total);
         int sum5 = (int)g1 / (int)g2;
 
         System.out.println(sum5);
@@ -72,8 +74,8 @@ public class Homework303_2_1 {
         System.out.println("-----------------------------");
         //Write a program that declares a named constant and uses it in a calculation. Print the result.
 
-        final double constantName = Math.sqrt(10);
-        System.out.println(constantName);
+        final double CONSTANT_NAME = Math.sqrt(10);
+        System.out.println(CONSTANT_NAME);
 
 
         //----------------------------Cafe Program----------------------------------------------
