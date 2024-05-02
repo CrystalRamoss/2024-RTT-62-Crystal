@@ -1,4 +1,4 @@
-package GLAB_303_2_1;
+package GLAB_303_2_1.CoreJavaOperators;
 
 public class AssignmentOperatorsDemo {
     public static void main(String args[]) {
