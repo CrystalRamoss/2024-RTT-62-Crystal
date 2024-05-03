@@ -51,11 +51,27 @@ public class Homework303_4_1 {
         }
 
         // #5 Write a program that uses if-else-if statements to print out grades A, B, C, D, F
+        //Use the Scanner class to accept a number score from the user to determine the letter grade.
+        // Print out “Score out of range” if the score is less than 0 or greater than 100.
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your grade: ");
+        int grade = scan.nextInt();
 
+        if (grade >= 90 && grade <= 100){
+            System.out.println("A");
+        } else if (grade <= 89 && grade >= 80){
+            System.out.println("B");
+        } else if (grade <= 79 && grade >= 70){
+            System.out.println("C");
+        } else if (grade <= 69 && grade >= 60){
+            System.out.println("D");
+        } else if (grade < 60 && grade >= 0) {
+            System.out.println("F");
+        } else {
+            System.out.println("Score out of range");
+        }
 
-        if
+        // #6
 
 
     }
