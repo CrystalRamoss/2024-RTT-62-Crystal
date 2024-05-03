@@ -1,2 +1,14 @@
-package GLAB_303_2_1.JavaStringMethods;public class lengthmethod {
+package GLAB_303_2_1.JavaStringMethods;
+
+public class lengthmethod {
+    public static void main(String[] args) {
+        String str1 = "Java";
+        String str2 = "";
+
+        System.out.println(str1.length());  // 4
+        System.out.println(str2.length());  // 0
+        System.out.println("Java".length());  // 4
+        System.out.println("Java\n".length()); // 5
+        System.out.println("Learn Java".length()); // 10
+    }
 }

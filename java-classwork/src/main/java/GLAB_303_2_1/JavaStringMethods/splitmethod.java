@@ -1,2 +1,14 @@
-package GLAB_303_2_1.JavaStringMethods;public class splitmethod {
+package GLAB_303_2_1.JavaStringMethods;
+
+public class splitmethod {
+        public static void main(String[] args) {
+            String vowels = "a::b::c::d:e";
+
+            // splitting the string at "::"
+            // storing the result in an array of strings
+            String[] result = vowels.split("::");
+
+            // converting array to string and printing it
+            System.out.println("result = " + Arrays.toString(result));
+        }
 }
