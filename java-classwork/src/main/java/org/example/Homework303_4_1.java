@@ -103,47 +103,41 @@ public class Homework303_4_1 {
         // #7 Create a program that lets the users input their filing status and income.
         // Display how much tax the user would have to pay according to status and income.
         System.out.println("Enter the corresponding number based on your filing status:");
-        System.out.println("1 = Enter 1 for Single");
-        System.out.println("2 = Married Filing Jointly");
-        System.out.println("3 = Married Filing Separately");
-        System.out.println("4 = Head of Household");
-        int status = scan.nextInt();
+        System.out.println("1. Single");
+        System.out.println("2. Married Filing Jointly");
+        System.out.println("3. Married Filing Separately");
+        System.out.println("4. Head of Household");
+        int filingStatus = scan.nextInt();
 
         System.out.println("Enter your income:");
         int income = scan.nextInt();
-        String status1 = "single";
-        String status2 = "joint";
 
-
-        double status1 + 10 = income * 0.10;
-        double single10 = income * 0.10;
-        double single15 = income * 0.15;
-        double single25 = income * 0.15;
-        double single28 = income * 0.28;
-        double single33 = income * 0.33;
-        double single35 = income * 0.35;
-
-
-        if (status == 1){
-            if (income >= 0 && income <= 8350){
-                System.out.println("Total Owed: " + single10);
-            } else if (income >= 8351 && income <= 33950){
-                System.out.println("Total Owed: " + single15);
-            } else if (income >= 33951 && income <= 82250){
-                System.out.println("Total Owed: " + single25);
-            } else if (income >= 82251 && income <= 171550){
-                System.out.println("Total Owed: " + single28);
-            } else if (income >= 171551  && income <= 372950){
-                System.out.println("Total Owed: " + single33);
-            } else if (income >= 372950){
-                System.out.println("Total Owed: " + single35);
-            } else {
-                System.out.println("Invalid Input. Try again.");
-            }
+        if (income < 0){
+            System.out.println("Invalid Input. Income cannot be negative");
         }
 
+        double status10 = income * 0.10;
+        double status15 = income * 0.15;
+        double status25 = income * 0.15;
+        double status28 = income * 0.28;
+        double status33 = income * 0.33;
+        double status35 = income * 0.35;
 
-
+        if (filingStatus == 1){
+            if (income >= 0 && income <= 8350){
+                System.out.println("Total Owed: " + status10);
+            } else if (income >= 8351 && income <= 33950){
+                System.out.println("Total Owed: " + status15);
+            } else if (income >= 33951 && income <= 82250){
+                System.out.println("Total Owed: " + status25);
+            } else if (income >= 82251 && income <= 171550){
+                System.out.println("Total Owed: " + status28);
+            } else if (income >= 171551  && income <= 372950){
+                System.out.println("Total Owed: " + status33);
+            } else{
+                System.out.println("Total Owed: " + status35);
+            }
+            
 
 
     }
