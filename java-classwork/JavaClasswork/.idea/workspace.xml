@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b2dae7d-f2b0-4ae8-a00c-2fd87e5c7837" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/org/Homework303_2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/Homework303_2_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +42,10 @@
     "Application.Homework303_2_1.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "G:/Development/2024-RTT-62/java-classwork",
+    "last_opened_file_path": "C:/Users/cryst/Development/2024-RTT-62",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -117,6 +115,8 @@
       <workItem from="1714603426854" duration="2342000" />
       <workItem from="1714605802961" duration="1837000" />
       <workItem from="1714662201936" duration="1378000" />
+      <workItem from="1714664781118" duration="91000" />
+      <workItem from="1714749487197" duration="51000" />
     </task>
     <servers />
   </component>

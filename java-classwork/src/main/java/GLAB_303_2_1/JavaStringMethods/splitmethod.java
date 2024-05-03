@@ -1,5 +1,7 @@
 package GLAB_303_2_1.JavaStringMethods;
 
+import java.util.Arrays;
+
 public class splitmethod {
         public static void main(String[] args) {
             String vowels = "a::b::c::d:e";
