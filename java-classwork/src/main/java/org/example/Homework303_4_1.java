@@ -123,22 +123,21 @@ public class Homework303_4_1 {
         double status33 = income * 0.33;
         double status35 = income * 0.35;
 
-        if (filingStatus == 1){
-            if (income >= 0 && income <= 8350){
+        if (filingStatus == 1) {
+            if (income >= 0 && income <= 8350) {
                 System.out.println("Total Owed: " + status10);
-            } else if (income >= 8351 && income <= 33950){
+            } else if (income >= 8351 && income <= 33950) {
                 System.out.println("Total Owed: " + status15);
-            } else if (income >= 33951 && income <= 82250){
+            } else if (income >= 33951 && income <= 82250) {
                 System.out.println("Total Owed: " + status25);
-            } else if (income >= 82251 && income <= 171550){
+            } else if (income >= 82251 && income <= 171550) {
                 System.out.println("Total Owed: " + status28);
-            } else if (income >= 171551  && income <= 372950){
+            } else if (income >= 171551 && income <= 372950) {
                 System.out.println("Total Owed: " + status33);
-            } else{
+            } else {
                 System.out.println("Total Owed: " + status35);
             }
-            
-
+        }
 
     }
 }
