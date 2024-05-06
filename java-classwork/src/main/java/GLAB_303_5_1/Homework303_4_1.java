@@ -1,4 +1,4 @@
-package org.example;
+package GLAB_303_5_1;
 import java.util.Scanner;
 
 public class Homework303_4_1 {
