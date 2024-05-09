@@ -12,7 +12,7 @@ public class Homework303_2_1 {
         int num2 = 20;
 
         int sum = num1 + num2;
-        System.out.println("The sume of " + sum);
+        System.out.println("The sum of " + sum);
 
         //----------------------------2 Doubles Program----------------------------------------------
         System.out.println("-----------------------------");

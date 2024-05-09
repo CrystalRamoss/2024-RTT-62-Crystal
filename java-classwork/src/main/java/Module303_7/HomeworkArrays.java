@@ -17,23 +17,25 @@ public class HomeworkArrays {
     public static void main(String[] args) {
         int[] arrayList = new int[10];
         for (int i = 0; i < arrayList.length; i++) {
+
             arrayList[i] = (int) (Math.random() * 100);
+            System.out.println(arrayList[i]);
 
-            int smallest = arrayList[0];
-            int largest = arrayList[0];
-            int sum =0;
-
-            for (int number: arrayList){
-                if (number < smallest){
-                    smallest = number;
-                }
-                if (number > largest){
-                    largest = number;
-                }
-                sum += number;
-            }
-            double average = (double)sum / arrayList.length;
-            System.out.println(average);
+//            int smallest = arrayList[0];
+//            int largest = arrayList[0];
+//            int sum =0;
+//
+//            for (int number: arrayList){
+//                if (number < smallest){
+//                    smallest = number;
+//                }
+//                if (number > largest){
+//                    largest = number;
+//                }
+//                sum += number;
+//            }
+//            double average = (double)sum / arrayList.length;
+//            System.out.println(average);
         }
     }
 }
