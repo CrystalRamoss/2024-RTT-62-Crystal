@@ -1,11 +1,12 @@
 package org.example.PA_303_9_1;
 
-public class Java_InheritanceI__ {
-    import java.io.*;
+import java.io.*;
 import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
+
+public class Java_InheritanceI__ {
 
     class Animal{
         void walk(){
