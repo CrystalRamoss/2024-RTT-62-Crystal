@@ -8,7 +8,6 @@ public class FirstJavaClass {
         num = 113;
         System.out.println(num);
 
-
         short snum;
         snum = 150;
         System.out.println(snum);

@@ -14,6 +14,8 @@ public class PA_303_7_1 {
 
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
+
+            System.out.println(array[i]);
         }
 
         System.out.println("*******************");

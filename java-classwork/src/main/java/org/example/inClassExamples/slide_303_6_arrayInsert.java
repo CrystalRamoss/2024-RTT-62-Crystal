@@ -1,4 +1,4 @@
-package org.example;
+package org.example.inClassExamples;
 
 public class slide_303_6_arrayInsert {
     public static void main(String[] args) {
