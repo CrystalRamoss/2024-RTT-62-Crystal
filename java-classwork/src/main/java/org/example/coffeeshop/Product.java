@@ -41,4 +41,7 @@ public class Product {
     public void setBeverage(boolean beverage) {
         this.beverage = beverage;
     }
+
+    public void setQuantityAvailable(int quantity) {
+    }
 }
