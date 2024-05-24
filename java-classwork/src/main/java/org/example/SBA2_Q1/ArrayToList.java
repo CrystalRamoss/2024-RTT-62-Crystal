@@ -2,7 +2,7 @@ package org.example.SBA2_Q1;
 
 import java.util.ArrayList;
 
-public class ArrayToList {
+class ArrayToList {
     private ArrayList<String> arrayToList = new ArrayList<>();
 
     public ArrayToList(){
