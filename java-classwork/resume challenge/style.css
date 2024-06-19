@@ -1,0 +1,61 @@
+body{
+    background-color: #acc3f5;
+
+}
+
+.name{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.container-content-1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+}
+
+.photo{
+    margin-right: 20px; /* Adjust spacing between photo and interests */
+    flex: 1; /* Adjust based on your layout preference */
+}
+
+
+.container{
+    background-color: #ffffff;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.479);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.myphoto{
+    margin-left: 20px;
+}
+
+.interests{
+    /* margin-left: 50px; */
+    flex: 3;
+    margin-left: 20px; 
+}
+
+.about{
+    margin-top: 20px;
+    padding: 20px; 
+    text-align: center;
+    width: 80%;
+}
+
+.java{
+    text-align: center;
+}
+
+.link{
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+}
