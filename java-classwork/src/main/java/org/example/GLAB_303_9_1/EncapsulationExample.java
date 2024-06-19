@@ -12,5 +12,7 @@ public class EncapsulationExample {
     }
     public static float calculateBmi(HumanBeing h1){
         return h1.getWeight()/(h1.getHeight()*h1.getHeight());
+
+        
     }
 }
