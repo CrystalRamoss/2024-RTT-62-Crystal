@@ -1,13 +1,14 @@
 package MethodOverloadingChallenge;
 
-public class convertToCentimeters {
-    public static double height(int inch){
+public class inchesToCentimeters {
+
+    public static double convertToCentimeters(int inch){
         return inch * 2.54;
     }
 
-    public static int convertToCentimeters(int ft, int inch ){
-        inch = (ft / inch) + inch;
-        return heght(inch);
+    public static double convertToCentimeters(int ft, int inch ){
+        inch = (ft * 12) + inch;
+        return convertToCentimeters(inch);
     }
 
 
