@@ -1,7 +1,8 @@
-package MethodOverloadingChallenge;
+package SecondsAndMinutesChallenge;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(inchesToCentimeters.convertToCentimeters(5, 10));
+        System.out.println(SecondsAndMinutes.getDurationString( 50, -5));
+
     }
 }
